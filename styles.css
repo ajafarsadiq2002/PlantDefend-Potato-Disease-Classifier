@@ -1,0 +1,74 @@
+/* Reset default styles and set background image */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg'); /* Update with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+
+/* Styles for the container */
+
+.container {
+    background-color:  #D9D9D957; /* Semi-transparent overlay */
+    padding: 50px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 10%;
+    font-weight: bold;
+    
+}
+
+
+
+/* Styles for the input and button */
+input[type="file"] {
+    margin-bottom: 1rem;
+}
+.hero {
+    background-image: url('bg_gif.gif'); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100vh; /* Viewport height */
+    padding: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Adjust the color to match your design */
+    color: white;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade for hover effect */
+}
+
+/* Style for the prediction result */
+#predictionResult {
+    /* Previous styles here */
+    border: 2px solid #4CAF50; /* Example solid green border, change as needed */
+    padding: 10px;
+    margin-top: 10px;
+    display: none; /* Hide by default */
+    opacity: 1;
+    transition: opacity 2s ease-out; /* Transition for the fade-out effect */
+}
