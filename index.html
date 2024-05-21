@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Defend</title>
+    <link rel="stylesheet" href="styles.css">
+    <header class="site-header">
+</head>
+<body>
+    <section class="hero">
+        <div class="header-content">
+            <img src="logo.png" alt="Plant Defend Logo" class="logo"> <!-- Update the src with your actual logo path -->
+            <h1>PlantDefend</h1>
+        </div>
+    <div class="container">
+        <h1>Potato Disease Classification</h1>
+        <p>Select an image of a potato leaf to predict its disease.</p>
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="uploadAndPredict()">Predict</button>
+        <div id="predictionResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
